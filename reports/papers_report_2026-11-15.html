@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>學術論文雷達 2026-11-15</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;900&family=UnifrakturMaguntia&display=swap">
+<style>
+body { margin:0; padding:24px 12px; background:#d9cfb8; }
+.paper {
+  max-width: 920px; margin: 0 auto; padding: 28px 34px 36px;
+  background-color: #f3ead3;
+  background-image: radial-gradient(ellipse at center, rgba(255,250,235,.55) 0%, rgba(214,196,156,.35) 100%);
+  color: #2a2118;
+  font-family: "Noto Serif TC", "PMingLiU", "新細明體", "MingLiU", "Songti TC", Georgia, "Times New Roman", serif;
+  border: 1px solid #b9a77f;
+  box-shadow: 0 2px 14px rgba(60,40,10,.25);
+}
+.ear { display:flex; justify-content:space-between; font-size:12px; color:#5a4a36; letter-spacing:1px; }
+.masthead {
+  text-align:center; margin: 6px 0 4px; padding: 8px 0 6px;
+  border-top: 4px double #2a2118; border-bottom: 1px solid #2a2118;
+}
+.masthead .name {
+  font-family: "UnifrakturMaguntia", "Old English Text MT", "Noto Serif TC", "PMingLiU", serif;
+  font-size: 54px; line-height: 1.05; letter-spacing: 6px; font-weight: 900; margin: 0;
+}
+.masthead .tag { font-size: 13px; letter-spacing: 4px; color:#4a3b2a; margin-top: 4px; }
+.dateline {
+  display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px;
+  font-size: 13px; padding: 5px 2px; border-bottom: 4px double #2a2118; margin-bottom: 18px;
+}
+.section { margin-top: 22px; }
+.section-head {
+  text-align:center; font-size: 22px; font-weight: 900; letter-spacing: 8px;
+  border-top: 2px solid #2a2118; border-bottom: 1px solid #2a2118; padding: 5px 0; margin-bottom: 6px;
+}
+.section-note { text-align:center; font-size: 13px; font-style: italic; color:#5a4a36; margin: 0 0 14px; }
+.columns { column-count: 2; column-gap: 32px; column-rule: 1px solid #a8956c; }
+.article { break-inside: avoid; -webkit-column-break-inside: avoid; page-break-inside: avoid;
+  padding-bottom: 14px; margin-bottom: 14px; border-bottom: 1px dashed #a8956c; }
+.headline { font-size: 21px; font-weight: 900; line-height: 1.3; margin: 0 0 4px; }
+.headline a { color:#2a2118; text-decoration:none; border-bottom: 1px solid #2a2118; }
+.byline { font-size: 12px; color:#5a4a36; letter-spacing: 1px; margin-bottom: 8px; }
+.body { font-size: 15px; line-height: 1.85; text-align: justify; margin: 0 0 6px; }
+.body.lead::first-letter { float:left; font-size: 46px; line-height: .9; font-weight: 900; padding: 4px 6px 0 0; }
+.label { font-weight: 900; }
+.photo { margin: 4px 0 10px; border: 1px solid #8f7d58; padding: 4px; background: #e9dfc4; }
+.photo img { display:block; width:100%; height:auto; max-height: 260px; object-fit: contain; background:#fff; }
+.photo .cap { font-size: 11px; color:#5a4a36; margin-top: 3px; letter-spacing: 1px; }
+.raw { font-size: 12px; color:#6b5a44; font-style: italic; }
+.empty { text-align:center; font-style: italic; color:#5a4a36; }
+.foot { margin-top: 26px; padding-top: 8px; border-top: 4px double #2a2118;
+  text-align:center; font-size: 12px; color:#5a4a36; letter-spacing: 1px; }
+@media (max-width: 640px) {
+  .paper { padding: 18px 16px 24px; }
+  .masthead .name { font-size: 36px; letter-spacing: 3px; }
+  .columns { column-count: 1; }
+}
+</style>
+</head>
+<body>
+<div class="paper">
+  <div class="ear"><span>自動編採．本機發行</span><span>第 20261115 號</span></div>
+  <div class="masthead">
+    <div class="name">學術日報</div>
+    <div class="tag">ARXIV 電機相關新論文．每日精選三篇</div>
+  </div>
+  <div class="dateline"><span>中華民國一一五年十一月十五日　星期日</span><span>學術論文雷達 2026-11-15</span></div>
+  <div class="section"><div class="section-head">今日要聞</div><div class="columns"><div class="article"><div class="headline"><a href="http://arxiv.org/pdf/2611.17108v1" target="_blank">LazyWeights：邊緣裝置上按需解碼的大型語言模型</a></div><div class="byline">本報訊｜cs.AR 硬體架構｜作者：Arnab Sanyal, Gourav Datta, Sandeep P. Chinchali</div><p class="body lead">在 Jetson 開發板上執行大型語言模型（LLM）時，記憶體容量與讀取頻寬是主要限制。現有壓縮格式每個數字都用相同位元數，但實際數字分布並不平均。LazyWeights 調整壓縮過程讓數字更好壓，再用霍夫曼編碼（依出現頻率分配位元的無損壓縮）存放，執行時由小型硬體即時解碼。同樣品質下，模型比 llama.cpp 最佳格式小 5.7% 到 31.4%。</p><p class="body"><span class="label">【實際應用】</span>在 Jetson 開發板上不連網路執行文字問答或語音指令，例如車上或機器人上的離線助理。</p><p class="body"><span class="label">【跟你的關係】</span>你的無人機專題把運算拆到 Raspberry Pi 與筆電，邊緣裝置的記憶體限制正是那類架構的常見瓶頸。</p><p class="body"><span class="label">【原文標題】</span>LazyWeights: Decode-on-Demand Edge LLMs</p></div><div class="article"><div class="headline"><a href="http://arxiv.org/pdf/2611.17099v1" target="_blank">自適應載波訊號合成：用於低溫偵測器頻分多工讀取的 FPGA 方法</a></div><div class="byline">本報訊｜eess.SP 訊號處理｜作者：Timo Muscheid, Benedikt Keppner, Daniel Crovo, Robert Gartmann, Marvin Fuchs, Lukas Scheller, Oliver Sander, Luis E. Ard</div><div class="photo"><a href="https://arxiv.org/html/2611.17099v1/sdr_concept_paper.png" target="_blank"><img src="https://arxiv.org/html/2611.17099v1/sdr_concept_paper.png" alt="自適應載波訊號合成：用於低溫偵測器頻分多工讀取的 FPGA 方法" loading="lazy"></a><div class="cap">圖：取自論文原文（點圖看原圖）</div></div><p class="body lead">低溫偵測器陣列常用頻分多工（用不同頻率同時傳多路訊號）讀取，每個偵測器需要一個固定頻率的載波。數量一多，總功率會把低溫放大器推過線性範圍，造成訊號失真。這篇用 FPGA（可重新設定內部電路的晶片）實作載波合成器，以數值控制振盪器（NCO，用數位方式產生正弦波）與多相濾波器組即時調整頻率，解析度達 4 mHz。</p><p class="body"><span class="label">【實際應用】</span>讀取大量感測器訊號，例如低溫實驗的偵測器陣列，或需要同時產生多個頻率的測試設備。</p><p class="body"><span class="label">【跟你的關係】</span>你有興趣的訊號處理領域，這篇說明如何用 FPGA 即時產生多個正弦載波，可參考其硬體做法。</p><p class="body"><span class="label">【原文標題】</span>Adaptive carrier signal synthesis for frequency-division multiplexed cryogenic detector readout</p></div><div class="article"><div class="headline"><a href="http://arxiv.org/pdf/2611.16524v1" target="_blank">大型語言模型與最佳化求解器結合的無人機搜救排程</a></div><div class="byline">本報訊｜cs.ET 新興技術｜作者：Yinghao Zhang, Yalin Liu, Hong-Ning Dai, Yan Zhang, Qubeijian Wang, Bishenghui Tao, Yaohan Li</div><div class="photo"><a href="https://arxiv.org/html/2611.16524v1/system_overview.png" target="_blank"><img src="https://arxiv.org/html/2611.16524v1/system_overview.png" alt="大型語言模型與最佳化求解器結合的無人機搜救排程" loading="lazy"></a><div class="cap">圖：取自論文原文（點圖看原圖）</div></div><p class="body lead">山區或荒野找人時間很緊迫，無人機可以快速搜尋，但排程困難，因為受困者會移動、偵測結果不確定。這篇在地面控制站設置一個代理（agent），每一輪搜尋先由大型語言模型判斷該搜哪裡，再由最佳化器在能量限制下決定各架無人機的派遣方式。模擬結果顯示，這套系统能完成搜救任務，六種非 LLM 的基準方法都無法完成。</p><p class="body"><span class="label">【實際應用】</span>山區搜救或災後搜尋時，規劃多架無人機分區搜尋與續航管理的排程。</p><p class="body"><span class="label">【跟你的關係】</span>你做過無人機避障專題，這篇處理多架無人機的任務分配與能量限制，屬於同一類系統的上層。</p><p class="body"><span class="label">【原文標題】</span>A Joint LLM and Optimization Agent Solution for Drone Scheduling in Victim Search Missions</p></div></div></div>
+  <div class="foot">本期由 Claude 依讀者簡介編選。資料來源：arXiv API；點標題可讀 PDF 原文。覺得有用的論文可記在 liked.txt。</div>
+</div>
+</body>
+</html>
