@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>技術雷達 2026-11-15</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;900&family=UnifrakturMaguntia&display=swap">
+<style>
+body { margin:0; padding:24px 12px; background:#d9cfb8; }
+.paper {
+  max-width: 920px; margin: 0 auto; padding: 28px 34px 36px;
+  background-color: #f3ead3;
+  background-image: radial-gradient(ellipse at center, rgba(255,250,235,.55) 0%, rgba(214,196,156,.35) 100%);
+  color: #2a2118;
+  font-family: "Noto Serif TC", "PMingLiU", "新細明體", "MingLiU", "Songti TC", Georgia, "Times New Roman", serif;
+  border: 1px solid #b9a77f;
+  box-shadow: 0 2px 14px rgba(60,40,10,.25);
+}
+.ear { display:flex; justify-content:space-between; font-size:12px; color:#5a4a36; letter-spacing:1px; }
+.masthead {
+  text-align:center; margin: 6px 0 4px; padding: 8px 0 6px;
+  border-top: 4px double #2a2118; border-bottom: 1px solid #2a2118;
+}
+.masthead .name {
+  font-family: "UnifrakturMaguntia", "Old English Text MT", "Noto Serif TC", "PMingLiU", serif;
+  font-size: 54px; line-height: 1.05; letter-spacing: 6px; font-weight: 900; margin: 0;
+}
+.masthead .tag { font-size: 13px; letter-spacing: 4px; color:#4a3b2a; margin-top: 4px; }
+.dateline {
+  display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px;
+  font-size: 13px; padding: 5px 2px; border-bottom: 4px double #2a2118; margin-bottom: 18px;
+}
+.section { margin-top: 22px; }
+.section-head {
+  text-align:center; font-size: 22px; font-weight: 900; letter-spacing: 8px;
+  border-top: 2px solid #2a2118; border-bottom: 1px solid #2a2118; padding: 5px 0; margin-bottom: 6px;
+}
+.section-note { text-align:center; font-size: 13px; font-style: italic; color:#5a4a36; margin: 0 0 14px; }
+.columns { column-count: 2; column-gap: 32px; column-rule: 1px solid #a8956c; }
+.article { break-inside: avoid; -webkit-column-break-inside: avoid; page-break-inside: avoid;
+  padding-bottom: 14px; margin-bottom: 14px; border-bottom: 1px dashed #a8956c; }
+.headline { font-size: 21px; font-weight: 900; line-height: 1.3; margin: 0 0 4px; }
+.headline a { color:#2a2118; text-decoration:none; border-bottom: 1px solid #2a2118; }
+.byline { font-size: 12px; color:#5a4a36; letter-spacing: 1px; margin-bottom: 8px; }
+.body { font-size: 15px; line-height: 1.85; text-align: justify; margin: 0 0 6px; }
+.body.lead::first-letter { float:left; font-size: 46px; line-height: .9; font-weight: 900; padding: 4px 6px 0 0; }
+.label { font-weight: 900; }
+.photo { margin: 4px 0 10px; border: 1px solid #8f7d58; padding: 4px; background: #e9dfc4; }
+.photo img { display:block; width:100%; height:auto; max-height: 260px; object-fit: contain; background:#fff; }
+.photo .cap { font-size: 11px; color:#5a4a36; margin-top: 3px; letter-spacing: 1px; }
+.raw { font-size: 12px; color:#6b5a44; font-style: italic; }
+.empty { text-align:center; font-style: italic; color:#5a4a36; }
+.foot { margin-top: 26px; padding-top: 8px; border-top: 4px double #2a2118;
+  text-align:center; font-size: 12px; color:#5a4a36; letter-spacing: 1px; }
+@media (max-width: 640px) {
+  .paper { padding: 18px 16px 24px; }
+  .masthead .name { font-size: 36px; letter-spacing: 3px; }
+  .columns { column-count: 1; }
+}
+</style>
+</head>
+<body>
+<div class="paper">
+  <div class="ear"><span>自動編採．本機發行</span><span>第 20261115 號</span></div>
+  <div class="masthead">
+    <div class="name">技術雷達報</div>
+    <div class="tag">新技術．老技術．跨界驚喜　每三日刊</div>
+  </div>
+  <div class="dateline"><span>中華民國一一五年十一月十五日　星期日</span><span>技術雷達 2026-11-15</span></div>
+  <div class="section"><div class="section-head">第一版　新技術</div><p class="section-note">近 90 天內誕生、已獲社群關注的專案。</p><div class="columns"><div class="article"><div class="headline"><a href="https://github.com/brilliantlabsAR/halo-firmware" target="_blank">halo-firmware</a></div><div class="byline">本報訊｜嵌入式／韌體｜brilliantlabsAR/halo-firmware｜星數 69｜2026 年建立｜C</div><p class="body lead">Brilliant Labs 的 Halo AI 眼鏡韌體，以 Zephyr RTOS（即時作業系統）跑在 Alif Balletto 晶片上。內建 Lua 執行環境，支援藍牙 OTA（無線更新韌體）。</p><p class="body"><span class="label">【實際應用】</span>可以參考如何在 MCU 上用 Zephyr 組織驅動程式與藍牙功能，也能看 Lua 腳本如何在裝置上執行。</p><p class="body"><span class="label">【跟你的關係】</span>你做過 MCU 韌體，這是同類型的韌體程式，可以對照 Zephyr 的寫法。</p></div><div class="article"><div class="headline"><a href="https://github.com/agharsallah/esp-labs-web" target="_blank">esp-labs-web</a></div><div class="byline">本報訊｜硬體／電路板｜agharsallah/esp-labs-web｜星數 858｜2026 年建立｜TypeScript</div><div class="photo"><a href="https://raw.githubusercontent.com/agharsallah/esp-labs-web/main/docs/media/labs-map.gif" target="_blank"><img src="https://raw.githubusercontent.com/agharsallah/esp-labs-web/main/docs/media/labs-map.gif" alt="esp-labs-web" loading="lazy"></a><div class="cap">圖：取自 agharsallah/esp-labs-web 專案說明（點圖看原圖）</div></div><p class="body lead">ESP32-S3 開發板的線上教學網站，用 React（網頁前端框架）製作。內容有即時腳位圖、可互動模擬器課程，以及韌體程式碼閱讀器。</p><p class="body"><span class="label">【實際應用】</span>可以先用腳位圖查各腳位功能，再到模擬器練習，接上實體板前先驗證程式邏輯。</p><p class="body"><span class="label">【跟你的關係】</span>你在學 Arduino 與 MCU 韌體，這個網站以 ESP32-S3 為主，腳位與韌體觀念可直接對照。</p></div><div class="article"><div class="headline"><a href="https://github.com/claynicholson/copper-kicad-mcp" target="_blank">copper-kicad-mcp</a></div><div class="byline">本報訊｜硬體／電路板｜claynicholson/copper-kicad-mcp｜星數 87｜2026 年建立｜Python</div><div class="photo"><a href="https://raw.githubusercontent.com/claynicholson/copper-kicad-mcp/main/docs/media/setup.gif" target="_blank"><img src="https://raw.githubusercontent.com/claynicholson/copper-kicad-mcp/main/docs/media/setup.gif" alt="copper-kicad-mcp" loading="lazy"></a><div class="cap">圖：取自 claynicholson/copper-kicad-mcp 專案說明（點圖看原圖）</div></div><p class="body lead">MCP 伺服器（讓 AI 程式呼叫外部工具的介面），可在 KiCad 上設計電路板。涵蓋電路圖、LCSC 零件、PCB 走線，以及 ERC/DRC（電氣與設計規則檢查）。</p><p class="body"><span class="label">【實際應用】</span>可以依描述產生電路圖與走線，檢查後輸出嘉立創（JLCPCB）的製板檔下單。</p><p class="body"><span class="label">【跟你的關係】</span>你用 KiCad 做電路板，可以測試它能否減少你手動做 ERC/DRC 檢查的時間。</p></div><div class="article"><div class="headline"><a href="https://github.com/LuwuDynamics/xgoduck_hardware" target="_blank">xgoduck_hardware</a></div><div class="byline">本報訊｜機構設計／3D 列印｜LuwuDynamics/xgoduck_hardware｜星數 1,935｜2026 年建立｜Game Maker Language</div><div class="photo"><a href="https://raw.githubusercontent.com/LuwuDynamics/xgoduck_hardware/master/media/xgo-duck-somersault.webp" target="_blank"><img src="https://raw.githubusercontent.com/LuwuDynamics/xgoduck_hardware/master/media/xgo-duck-somersault.webp" alt="xgoduck_hardware" loading="lazy"></a><div class="cap">圖：取自 LuwuDynamics/xgoduck_hardware 專案說明（點圖看原圖）</div></div><p class="body lead">3D 列印的雙足機器鴨，用 Arduino UNO Q 加 15 顆伺服馬達驅動，由 Pollen Robotics 的 Microduck 改寫而來。專案包含機構相關內容。</p><p class="body"><span class="label">【實際應用】</span>可以參考腳部與關節的機構設計，練習多顆伺服馬達的步態控制。</p><p class="body"><span class="label">【跟你的關係】</span>你有 3D 列印感測器支架的經驗，這個專案的機構與伺服控制可以直接對照。</p></div><div class="article"><div class="headline"><a href="https://github.com/TianHengZhuang/mavplan" target="_blank">mavplan</a></div><div class="byline">本報訊｜無人載具｜TianHengZhuang/mavplan｜星數 15｜2026 年建立｜Python</div><p class="body lead">MAVLink 任務規劃工具（MAVLink 是無人機與地面站之間的通訊協定），可規劃航點、做模擬，也能分析飛行記錄檔。</p><p class="body"><span class="label">【實際應用】</span>可以先在電腦上規劃並模擬航線，確認後再上傳到無人機，飛完用記錄檔檢查狀況。</p><p class="body"><span class="label">【跟你的關係】</span>你做過無人機避障系統，這個工具可以用來規劃測試航線並分析飛行記錄。</p></div></div></div><div class="section"><div class="section-head">第二版　老技術新啟發</div><p class="section-note">問世超過 3 年的經典專案，看看前人怎麼解決問題。</p><div class="columns"><div class="article"><div class="headline"><a href="https://github.com/lvgl/lvgl" target="_blank">lvgl</a></div><div class="byline">本報訊｜嵌入式／韌體｜lvgl/lvgl｜星數 25,169｜2016 年建立｜C</div><div class="photo"><a href="https://github.com/user-attachments/assets/965e8b8b-d240-45ed-9744-bdd81785967d" target="_blank"><img src="https://github.com/user-attachments/assets/965e8b8b-d240-45ed-9744-bdd81785967d" alt="lvgl" loading="lazy"></a><div class="cap">圖：取自 lvgl/lvgl 專案說明（點圖看原圖）</div></div><p class="body lead">嵌入式圖形介面函式庫（GUI Library），從小型 MCU（微控制器）到有 3D 能力的 MPU（微處理器）都能使用，以 C 語言寫成。</p><p class="body"><span class="label">【實際應用】</span>可以在小型彩色螢幕上做儀表板或按鈕選單，不需要自己從頭寫繪圖程式。</p><p class="body"><span class="label">【跟你的關係】</span>你在學 MCU 韌體，若要在小螢幕上顯示感測資料，這個函式庫可以直接用。</p></div><div class="article"><div class="headline"><a href="https://github.com/logisim-evolution/logisim-evolution" target="_blank">logisim-evolution</a></div><div class="byline">本報訊｜硬體／電路板｜logisim-evolution/logisim-evolution｜星數 7,942｜2014 年建立｜Java</div><div class="photo"><a href="https://raw.githubusercontent.com/logisim-evolution/logisim-evolution/main/docs/img/logisim-evolution-logo.png" target="_blank"><img src="https://raw.githubusercontent.com/logisim-evolution/logisim-evolution/main/docs/img/logisim-evolution-logo.png" alt="logisim-evolution" loading="lazy"></a><div class="cap">圖：取自 logisim-evolution/logisim-evolution 專案說明（點圖看原圖）</div></div><p class="body lead">用 Java 寫的數位邏輯設計與模擬軟體。數位邏輯指由 AND、OR 等邏輯閘組成的電路，可在畫面上畫電路並模擬輸出。</p><p class="body"><span class="label">【實際應用】</span>可以先在這裡驗證加法器或計數器的邏輯，再實作到 FPGA（可重新設定內部電路的晶片）上。</p><p class="body"><span class="label">【跟你的關係】</span>你是電機系學生，可以用它來驗證數位邏輯課程的電路設計。</p></div><div class="article"><div class="headline"><a href="https://github.com/PX4/PX4-Autopilot" target="_blank">PX4-Autopilot</a></div><div class="byline">本報訊｜機器人｜PX4/PX4-Autopilot｜星數 13,034｜2012 年建立｜C++</div><p class="body lead">開源無人機飛控軟體（飛控是控制姿態與馬達的程式），用 C++ 寫成，支援多旋翼與固定翼等機型。</p><p class="body"><span class="label">【實際應用】</span>可以在模擬器中測試飛控參數，再接到實體飛控板上做實機測試。</p><p class="body"><span class="label">【跟你的關係】</span>你的避障專題用 Arduino 與 Raspberry Pi，PX4 是另一種飛控做法，可以拿來比較架構。</p></div></div></div><div class="section"><div class="section-head">第三版　跨界驚喜</div><p class="section-note">你的領域之外，但可能帶來意外靈感的東西。</p><div class="columns"><div class="article"><div class="headline"><a href="https://github.com/kgoba/ft8_lib" target="_blank">ft8_lib</a></div><div class="byline">本報訊｜跨界：ham-radio｜kgoba/ft8_lib｜星數 305｜2018 年建立｜C</div><p class="body lead">用 C 語言實作的 FT8 函式庫。FT8 是業餘無線電使用的數位通訊模式，可在很弱的訊號下傳送短訊息。</p><p class="body"><span class="label">【實際應用】</span>可以研究弱訊號的同步與解碼流程，當作訊號處理的練習材料。</p><p class="body"><span class="label">【跟你的關係】</span>你有興趣的訊號處理，這個函式庫是完整的 C 語言實作，能對照課本理論來看。</p></div><div class="article"><div class="headline"><a href="https://github.com/sh123/codec2_talkie" target="_blank">codec2_talkie</a></div><div class="byline">本報訊｜跨界：ham-radio｜sh123/codec2_talkie｜星數 299｜2020 年建立｜Java</div><div class="photo"><a href="https://raw.githubusercontent.com/sh123/codec2_talkie/master/images/diagram.png" target="_blank"><img src="https://raw.githubusercontent.com/sh123/codec2_talkie/master/images/diagram.png" alt="codec2_talkie" loading="lazy"></a><div class="cap">圖：取自 sh123/codec2_talkie 專案說明（點圖看原圖）</div></div><p class="body lead">把 Android 手機變成業餘無線電 APRS 手持機的 App（APRS 是無線電位置與訊息回報系統）。支援 Codec2 與 Opus 語音編碼，可透過藍牙、USB 或 TCP/IP 連接。</p><p class="body"><span class="label">【實際應用】</span>可以研究 Android 如何透過 USB 或藍牙取得音訊，並做語音編碼與傳輸。</p><p class="body"><span class="label">【跟你的關係】</span>你做過 Android 魔術方塊 App，這個專案的音訊處理流程可以當作參考。</p></div></div></div>
+  <div class="foot">本期由 Claude 依讀者簡介編選。資料來源：GitHub Search API。覺得有用的題目可記在 liked.txt，之後的選題會參考。</div>
+</div>
+</body>
+</html>
