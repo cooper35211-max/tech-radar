@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>學術論文雷達 2026-11-19</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;900&family=UnifrakturMaguntia&display=swap">
+<style>
+body { margin:0; padding:24px 12px; background:#d9cfb8; }
+.paper {
+  max-width: 920px; margin: 0 auto; padding: 28px 34px 36px;
+  background-color: #f3ead3;
+  background-image: radial-gradient(ellipse at center, rgba(255,250,235,.55) 0%, rgba(214,196,156,.35) 100%);
+  color: #2a2118;
+  font-family: "Noto Serif TC", "PMingLiU", "新細明體", "MingLiU", "Songti TC", Georgia, "Times New Roman", serif;
+  border: 1px solid #b9a77f;
+  box-shadow: 0 2px 14px rgba(60,40,10,.25);
+}
+.ear { display:flex; justify-content:space-between; font-size:12px; color:#5a4a36; letter-spacing:1px; }
+.masthead {
+  text-align:center; margin: 6px 0 4px; padding: 8px 0 6px;
+  border-top: 4px double #2a2118; border-bottom: 1px solid #2a2118;
+}
+.masthead .name {
+  font-family: "UnifrakturMaguntia", "Old English Text MT", "Noto Serif TC", "PMingLiU", serif;
+  font-size: 54px; line-height: 1.05; letter-spacing: 6px; font-weight: 900; margin: 0;
+}
+.masthead .tag { font-size: 13px; letter-spacing: 4px; color:#4a3b2a; margin-top: 4px; }
+.dateline {
+  display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px;
+  font-size: 13px; padding: 5px 2px; border-bottom: 4px double #2a2118; margin-bottom: 18px;
+}
+.section { margin-top: 22px; }
+.section-head {
+  text-align:center; font-size: 22px; font-weight: 900; letter-spacing: 8px;
+  border-top: 2px solid #2a2118; border-bottom: 1px solid #2a2118; padding: 5px 0; margin-bottom: 6px;
+}
+.section-note { text-align:center; font-size: 13px; font-style: italic; color:#5a4a36; margin: 0 0 14px; }
+.columns { column-count: 2; column-gap: 32px; column-rule: 1px solid #a8956c; }
+.article { break-inside: avoid; -webkit-column-break-inside: avoid; page-break-inside: avoid;
+  padding-bottom: 14px; margin-bottom: 14px; border-bottom: 1px dashed #a8956c; }
+.headline { font-size: 21px; font-weight: 900; line-height: 1.3; margin: 0 0 4px; }
+.headline a { color:#2a2118; text-decoration:none; border-bottom: 1px solid #2a2118; }
+.byline { font-size: 12px; color:#5a4a36; letter-spacing: 1px; margin-bottom: 8px; }
+.body { font-size: 15px; line-height: 1.85; text-align: justify; margin: 0 0 6px; }
+.body.lead::first-letter { float:left; font-size: 46px; line-height: .9; font-weight: 900; padding: 4px 6px 0 0; }
+.label { font-weight: 900; }
+.photo { margin: 4px 0 10px; border: 1px solid #8f7d58; padding: 4px; background: #e9dfc4; }
+.photo img { display:block; width:100%; height:auto; max-height: 260px; object-fit: contain; background:#fff; }
+.photo .cap { font-size: 11px; color:#5a4a36; margin-top: 3px; letter-spacing: 1px; }
+.raw { font-size: 12px; color:#6b5a44; font-style: italic; }
+.empty { text-align:center; font-style: italic; color:#5a4a36; }
+.foot { margin-top: 26px; padding-top: 8px; border-top: 4px double #2a2118;
+  text-align:center; font-size: 12px; color:#5a4a36; letter-spacing: 1px; }
+@media (max-width: 640px) {
+  .paper { padding: 18px 16px 24px; }
+  .masthead .name { font-size: 36px; letter-spacing: 3px; }
+  .columns { column-count: 1; }
+}
+</style>
+</head>
+<body>
+<div class="paper">
+  <div class="ear"><span>自動編採．本機發行</span><span>第 20261119 號</span></div>
+  <div class="masthead">
+    <div class="name">學術日報</div>
+    <div class="tag">ARXIV 電機相關新論文．每日精選三篇</div>
+  </div>
+  <div class="dateline"><span>中華民國一一五年十一月十九日　星期四</span><span>學術論文雷達 2026-11-19</span></div>
+  <div class="section"><div class="section-head">今日要聞</div><div class="columns"><div class="article"><div class="headline"><a href="http://arxiv.org/pdf/2611.22900v1" target="_blank">名稱：blaris，適用於微控制器的無視窗 LZSS 解壓縮方法</a></div><div class="byline">本報訊｜cs.AR 硬體架構｜作者：Ihor Lukianov</div><p class="body lead">微控制器（MCU，小型單晶片電腦）的 RAM 很少。常見解壓工具要在 RAM 留一段視窗，視窗越大壓縮率越好。blaris 不留視窗，直接在壓縮資料中找回重複內容。在 RV32IMC（RISC-V 指令集的一種）上只需要 548 到 784 B 的快閃記憶體和 104 到 112 B 的 RAM。小段資料的隨機讀取明顯比既有工具快。</p><p class="body"><span class="label">【實際應用】</span>把圖示或字型壓縮後存進 MCU 的快閃記憶體，需要時只讀取小段。資料由電腦先壓縮、再燒進裝置時最適用。</p><p class="body"><span class="label">【跟你的關係】</span>你做過 Arduino 與 MCU 韌體，RAM 不夠時遇到的限制正是這篇要解決的問題。</p><p class="body"><span class="label">【原文標題】</span>blaris: Windowless Random-Access LZSS for Constrained Microcontrollers</p></div><div class="article"><div class="headline"><a href="http://arxiv.org/pdf/2611.23120v1" target="_blank">名稱：Pressure Drop，用氣壓計陣列估計重力方向</a></div><div class="byline">本報訊｜cs.RO 機器人｜作者：William Dubois, Nicolas Lauzon, Johann Laconte, François Pomerleau</div><div class="photo"><a href="https://arxiv.org/html/2611.23120v1/fig1_WIP_gray.png" target="_blank"><img src="https://arxiv.org/html/2611.23120v1/fig1_WIP_gray.png" alt="名稱：Pressure Drop，用氣壓計陣列估計重力方向" loading="lazy"></a><div class="cap">圖：取自論文原文（點圖看原圖）</div></div><p class="body lead">移動機器人做定位（SLAM）時，常需要知道重力方向。一般做法是用 IMU（慣性測量單元，內含加速度計和陀螺儀）間接算出來。這篇改用多個氣壓計同時量高度，從高度差算出傾斜方向。在半靜止的情境下，傾斜角的中位誤差為 0.87 度，與 IMU 方法的表現接近。論文也分析了感測器間距的影響。</p><p class="body"><span class="label">【實際應用】</span>機器人定位時把重力方向當成已知條件。可用數個氣壓計模組接在 Arduino 或 Raspberry Pi 上，估計機體傾斜。</p><p class="body"><span class="label">【跟你的關係】</span>你做過無人機專題並用 Arduino 接感測器，這篇是用多個感測器量測傾斜的實作參考。</p><p class="body"><span class="label">【原文標題】</span>Pressure Drop: Gravity Vector Estimation from a Distributed Barometric Pressure Sensor Array</p></div><div class="article"><div class="headline"><a href="http://arxiv.org/pdf/2611.22983v1" target="_blank">名稱：3D-VASE，多層 3D 列印微流體裝置的自動設計</a></div><div class="byline">本報訊｜cs.ET 新興技術｜作者：Yushen Zhang, Jiashuo Chen, Tsun-Ming Tseng, Ulf Schlichtmann</div><div class="photo"><a href="https://arxiv.org/html/2611.22983v1/Fig_Fabrication_Example.png" target="_blank"><img src="https://arxiv.org/html/2611.22983v1/Fig_Fabrication_Example.png" alt="名稱：3D-VASE，多層 3D 列印微流體裝置的自動設計" loading="lazy"></a><div class="cap">圖：取自論文原文（點圖看原圖）</div></div><p class="body lead">微流體（很細的液體通道）可用 3D 列印做成多層裝置。設計者要自己安排通道，讓液體按時到達並控制用量，很難排。既有方法把擺放與走線放進同一個大型最佳化，設計一複雜就效果差。這篇分兩步：先用 MIP（一種數學最佳化方法）排各層元件位置，再用 3D 走線引擎布通道，並檢查時序與體積限制。</p><p class="body"><span class="label">【實際應用】</span>用 3D 列印做按順序加液、按比例配液的小型實驗裝置，適合不靠泵浦推動的設計。</p><p class="body"><span class="label">【跟你的關係】</span>你對 3D 列印與機構設計有興趣，這篇處理 3D 列印內部通道的自動排版，可參考它的兩步式流程。</p><p class="body"><span class="label">【原文標題】</span>3D-VASE: Volumetric-Aware Scalable and Efficient Multi-Layer Design Synthesis for 3D-Printed Microfluidics</p></div></div></div>
+  <div class="foot">本期由 Claude 依讀者簡介編選。資料來源：arXiv API；點標題可讀 PDF 原文。覺得有用的論文可記在 liked.txt。</div>
+</div>
+</body>
+</html>
