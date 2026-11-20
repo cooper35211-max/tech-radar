@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>學術論文雷達 2026-11-20</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;900&family=UnifrakturMaguntia&display=swap">
+<style>
+body { margin:0; padding:24px 12px; background:#d9cfb8; }
+.paper {
+  max-width: 920px; margin: 0 auto; padding: 28px 34px 36px;
+  background-color: #f3ead3;
+  background-image: radial-gradient(ellipse at center, rgba(255,250,235,.55) 0%, rgba(214,196,156,.35) 100%);
+  color: #2a2118;
+  font-family: "Noto Serif TC", "PMingLiU", "新細明體", "MingLiU", "Songti TC", Georgia, "Times New Roman", serif;
+  border: 1px solid #b9a77f;
+  box-shadow: 0 2px 14px rgba(60,40,10,.25);
+}
+.ear { display:flex; justify-content:space-between; font-size:12px; color:#5a4a36; letter-spacing:1px; }
+.masthead {
+  text-align:center; margin: 6px 0 4px; padding: 8px 0 6px;
+  border-top: 4px double #2a2118; border-bottom: 1px solid #2a2118;
+}
+.masthead .name {
+  font-family: "UnifrakturMaguntia", "Old English Text MT", "Noto Serif TC", "PMingLiU", serif;
+  font-size: 54px; line-height: 1.05; letter-spacing: 6px; font-weight: 900; margin: 0;
+}
+.masthead .tag { font-size: 13px; letter-spacing: 4px; color:#4a3b2a; margin-top: 4px; }
+.dateline {
+  display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px;
+  font-size: 13px; padding: 5px 2px; border-bottom: 4px double #2a2118; margin-bottom: 18px;
+}
+.section { margin-top: 22px; }
+.section-head {
+  text-align:center; font-size: 22px; font-weight: 900; letter-spacing: 8px;
+  border-top: 2px solid #2a2118; border-bottom: 1px solid #2a2118; padding: 5px 0; margin-bottom: 6px;
+}
+.section-note { text-align:center; font-size: 13px; font-style: italic; color:#5a4a36; margin: 0 0 14px; }
+.columns { column-count: 2; column-gap: 32px; column-rule: 1px solid #a8956c; }
+.article { break-inside: avoid; -webkit-column-break-inside: avoid; page-break-inside: avoid;
+  padding-bottom: 14px; margin-bottom: 14px; border-bottom: 1px dashed #a8956c; }
+.headline { font-size: 21px; font-weight: 900; line-height: 1.3; margin: 0 0 4px; }
+.headline a { color:#2a2118; text-decoration:none; border-bottom: 1px solid #2a2118; }
+.byline { font-size: 12px; color:#5a4a36; letter-spacing: 1px; margin-bottom: 8px; }
+.body { font-size: 15px; line-height: 1.85; text-align: justify; margin: 0 0 6px; }
+.body.lead::first-letter { float:left; font-size: 46px; line-height: .9; font-weight: 900; padding: 4px 6px 0 0; }
+.label { font-weight: 900; }
+.photo { margin: 4px 0 10px; border: 1px solid #8f7d58; padding: 4px; background: #e9dfc4; }
+.photo img { display:block; width:100%; height:auto; max-height: 260px; object-fit: contain; background:#fff; }
+.photo .cap { font-size: 11px; color:#5a4a36; margin-top: 3px; letter-spacing: 1px; }
+.raw { font-size: 12px; color:#6b5a44; font-style: italic; }
+.empty { text-align:center; font-style: italic; color:#5a4a36; }
+.foot { margin-top: 26px; padding-top: 8px; border-top: 4px double #2a2118;
+  text-align:center; font-size: 12px; color:#5a4a36; letter-spacing: 1px; }
+@media (max-width: 640px) {
+  .paper { padding: 18px 16px 24px; }
+  .masthead .name { font-size: 36px; letter-spacing: 3px; }
+  .columns { column-count: 1; }
+}
+</style>
+</head>
+<body>
+<div class="paper">
+  <div class="ear"><span>自動編採．本機發行</span><span>第 20261120 號</span></div>
+  <div class="masthead">
+    <div class="name">學術日報</div>
+    <div class="tag">ARXIV 電機相關新論文．每日精選三篇</div>
+  </div>
+  <div class="dateline"><span>中華民國一一五年十一月二十日　星期五</span><span>學術論文雷達 2026-11-20</span></div>
+  <div class="section"><div class="section-head">今日要聞</div><div class="columns"><div class="article"><div class="headline"><a href="http://arxiv.org/pdf/2611.24637v1" target="_blank">Hypnos：可在邊緣裝置上持續學習的雙階段開源平台</a></div><div class="byline">本報訊｜cs.AR 硬體架構｜作者：Guilherme Guedes, Marco Apolinario Lainez, Charlotte Frenkel</div><div class="photo"><a href="https://arxiv.org/html/2611.24637v1/latent_replay.png" target="_blank"><img src="https://arxiv.org/html/2611.24637v1/latent_replay.png" alt="Hypnos：可在邊緣裝置上持續學習的雙階段開源平台" loading="lazy"></a><div class="cap">圖：取自論文原文（點圖看原圖）</div></div><p class="body lead">邊緣裝置（例如放在現場的感測器板）上的神經網路，學到新資料後容易忘掉舊的能力，這稱為災難性遺忘。傳統的反向傳播訓練需要很大的記憶體，小型裝置負擔不起。Hypnos 分成兩個階段。喚醒階段（白天運作）用低記憶體的 RISC-V 微控制器（MCU）做推論，並支援輕量的線上學習。睡眠階段負責長期整合學到的內容。這是一個開源平台。</p><p class="body"><span class="label">【實際應用】</span>裝在戶外感測器上，讓辨識模型依現場資料調整，不必把資料全部傳回雲端。</p><p class="body"><span class="label">【跟你的關係】</span>你的無人機專題用 Arduino 與 Raspberry Pi 分工。這篇也是 MCU 與較大運算單元分工，可參考其兩階段架構。</p><p class="body"><span class="label">【原文標題】</span>Hypnos: A Dual-Phase End-to-End Platform for Scalable Continual Learning at the Edge</p></div><div class="article"><div class="headline"><a href="http://arxiv.org/pdf/2611.24747v1" target="_blank">量產車橫向速度估測：從一台車遷移到另一台車</a></div><div class="byline">本報訊｜eess.SY 系統與控制｜作者：Hendrik Schäfke, Simon F. G. Ehlers, Thomas Seel, Askar Vagapov, Christoph Schweers, Ahmed Trabelsi, Daniel O. M. Weber</div><div class="photo"><a href="https://arxiv.org/html/2611.24747v1/x2.png" target="_blank"><img src="https://arxiv.org/html/2611.24747v1/x2.png" alt="量產車橫向速度估測：從一台車遷移到另一台車" loading="lazy"></a><div class="cap">圖：取自論文原文（點圖看原圖）</div></div><p class="body lead">橫向速度（車身往側邊滑動的速度）對車輛穩定控制很重要，但量產車的感測器量不到。作者在小型車上用車內 CAN 匯流排訊號訓練神經網路，然後直接拿到休旅車與廂型車上測試，不再重新訓練。測試時以 GNSS（衛星定位）輔助的慣性量測作為參考值。在新車上，誤差比訓練車高出約一個數量級。作者比較十個 CAN 訊號後，找出一組五個訊號的組合，遷移效果最好。</p><p class="body"><span class="label">【實際應用】</span>用在車輛穩定控制或自駕研究。若你的車只能讀 CAN 資料，可先用這種方式估測橫向速度。</p><p class="body"><span class="label">【跟你的關係】</span>你對無人車有興趣。這篇用實車路測資料與參考值比對，驗證方法可供你參考。</p><p class="body"><span class="label">【原文標題】</span>Cross-Vehicle Transferability of Lateral Velocity Estimation on Production Vehicles through Input Selection and Data Augmentation</p></div><div class="article"><div class="headline"><a href="http://arxiv.org/pdf/2611.24829v1" target="_blank">MPARA：以移位與加法近似複數乘法的貪婪演算法</a></div><div class="byline">本報訊｜eess.SP 訊號處理｜作者：Luiz F. da S. Coelho, Paulo S. R. Diniz, Didier Le Ruyet</div><div class="photo"><a href="https://arxiv.org/html/2611.24829v1/non_orthogonal.png" target="_blank"><img src="https://arxiv.org/html/2611.24829v1/non_orthogonal.png" alt="MPARA：以移位與加法近似複數乘法的貪婪演算法" loading="lazy"></a><div class="cap">圖：取自論文原文（點圖看原圖）</div></div><p class="body lead">FFT（快速傅立葉轉換，把訊號拆成各頻率成分的運算）中有大量複數乘法，通常需要硬體乘法器，會占用晶片面積與功耗。本文提出 MPARA 演算法，把複數相位角的正切值，用多個有號 2 的冪次和（SOPOT）來近似。SOPOT 只需要移位與加減，因此複數乘法可以不用乘法器。文中用它近似 FFT 的旋轉因子（twiddle factor），準確度優於其他近似方法。</p><p class="body"><span class="label">【實際應用】</span>用在 FPGA 或低成本 MCU 上做頻譜分析或無線電接收，可以省下乘法器資源。</p><p class="body"><span class="label">【跟你的關係】</span>你對訊號處理與硬體電路有興趣。若你在 FPGA 或 MCU 上實作 FFT，這篇處理的是同樣的乘法器成本問題。</p><p class="body"><span class="label">【原文標題】</span>Greedy Vector Approximation Based on Rotation for Multiplierless Complex Products</p></div></div></div>
+  <div class="foot">本期由 Claude 依讀者簡介編選。資料來源：arXiv API；點標題可讀 PDF 原文。覺得有用的論文可記在 liked.txt。</div>
+</div>
+</body>
+</html>
