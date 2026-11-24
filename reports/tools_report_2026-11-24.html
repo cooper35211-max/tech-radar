@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>技術雷達 2026-11-24</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;900&family=UnifrakturMaguntia&display=swap">
+<style>
+body { margin:0; padding:24px 12px; background:#d9cfb8; }
+.paper {
+  max-width: 920px; margin: 0 auto; padding: 28px 34px 36px;
+  background-color: #f3ead3;
+  background-image: radial-gradient(ellipse at center, rgba(255,250,235,.55) 0%, rgba(214,196,156,.35) 100%);
+  color: #2a2118;
+  font-family: "Noto Serif TC", "PMingLiU", "新細明體", "MingLiU", "Songti TC", Georgia, "Times New Roman", serif;
+  border: 1px solid #b9a77f;
+  box-shadow: 0 2px 14px rgba(60,40,10,.25);
+}
+.ear { display:flex; justify-content:space-between; font-size:12px; color:#5a4a36; letter-spacing:1px; }
+.masthead {
+  text-align:center; margin: 6px 0 4px; padding: 8px 0 6px;
+  border-top: 4px double #2a2118; border-bottom: 1px solid #2a2118;
+}
+.masthead .name {
+  font-family: "UnifrakturMaguntia", "Old English Text MT", "Noto Serif TC", "PMingLiU", serif;
+  font-size: 54px; line-height: 1.05; letter-spacing: 6px; font-weight: 900; margin: 0;
+}
+.masthead .tag { font-size: 13px; letter-spacing: 4px; color:#4a3b2a; margin-top: 4px; }
+.dateline {
+  display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px;
+  font-size: 13px; padding: 5px 2px; border-bottom: 4px double #2a2118; margin-bottom: 18px;
+}
+.section { margin-top: 22px; }
+.section-head {
+  text-align:center; font-size: 22px; font-weight: 900; letter-spacing: 8px;
+  border-top: 2px solid #2a2118; border-bottom: 1px solid #2a2118; padding: 5px 0; margin-bottom: 6px;
+}
+.section-note { text-align:center; font-size: 13px; font-style: italic; color:#5a4a36; margin: 0 0 14px; }
+.columns { column-count: 2; column-gap: 32px; column-rule: 1px solid #a8956c; }
+.article { break-inside: avoid; -webkit-column-break-inside: avoid; page-break-inside: avoid;
+  padding-bottom: 14px; margin-bottom: 14px; border-bottom: 1px dashed #a8956c; }
+.headline { font-size: 21px; font-weight: 900; line-height: 1.3; margin: 0 0 4px; }
+.headline a { color:#2a2118; text-decoration:none; border-bottom: 1px solid #2a2118; }
+.byline { font-size: 12px; color:#5a4a36; letter-spacing: 1px; margin-bottom: 8px; }
+.body { font-size: 15px; line-height: 1.85; text-align: justify; margin: 0 0 6px; }
+.body.lead::first-letter { float:left; font-size: 46px; line-height: .9; font-weight: 900; padding: 4px 6px 0 0; }
+.label { font-weight: 900; }
+.photo { margin: 4px 0 10px; border: 1px solid #8f7d58; padding: 4px; background: #e9dfc4; }
+.photo img { display:block; width:100%; height:auto; max-height: 260px; object-fit: contain; background:#fff; }
+.photo .cap { font-size: 11px; color:#5a4a36; margin-top: 3px; letter-spacing: 1px; }
+.raw { font-size: 12px; color:#6b5a44; font-style: italic; }
+.empty { text-align:center; font-style: italic; color:#5a4a36; }
+.foot { margin-top: 26px; padding-top: 8px; border-top: 4px double #2a2118;
+  text-align:center; font-size: 12px; color:#5a4a36; letter-spacing: 1px; }
+@media (max-width: 640px) {
+  .paper { padding: 18px 16px 24px; }
+  .masthead .name { font-size: 36px; letter-spacing: 3px; }
+  .columns { column-count: 1; }
+}
+</style>
+</head>
+<body>
+<div class="paper">
+  <div class="ear"><span>自動編採．本機發行</span><span>第 20261124 號</span></div>
+  <div class="masthead">
+    <div class="name">技術雷達報</div>
+    <div class="tag">新技術．老技術．跨界驚喜　每三日刊</div>
+  </div>
+  <div class="dateline"><span>中華民國一一五年十一月二十四日　星期二</span><span>技術雷達 2026-11-24</span></div>
+  <div class="section"><div class="section-head">第一版　新技術</div><p class="section-note">近 90 天內誕生、已獲社群關注的專案。</p><div class="columns"><div class="article"><div class="headline"><a href="https://github.com/onehumanbeing/esp32-iphone-agent" target="_blank">esp32-iphone-agent</a></div><div class="byline">本報訊｜嵌入式／韌體｜onehumanbeing/esp32-iphone-agent｜星數 5,276｜2026 年建立｜Swift</div><div class="photo"><a href="https://raw.githubusercontent.com/onehumanbeing/esp32-iphone-agent/main/docs/images/demo.gif" target="_blank"><img src="https://raw.githubusercontent.com/onehumanbeing/esp32-iphone-agent/main/docs/images/demo.gif" alt="esp32-iphone-agent" loading="lazy"></a><div class="cap">圖：取自 onehumanbeing/esp32-iphone-agent 專案說明（點圖看原圖）</div></div><p class="body lead">Manina AI 是一個讓 AI 模型操作真實 iPhone 的專案。硬體使用 7 美元左右的 ESP32，透過 AirPlay 取得畫面，用 USB HID（鍵盤滑鼠介面）模擬點擊與輸入。模型可以是任何 OpenAI 相容的視覺模型。</p><p class="body"><span class="label">【實際應用】</span>可以拿 ESP32 當作 USB 輸入裝置的範例，練習 AirPlay 影像接收與 HID 模擬。也能用來做自動化測試 iPhone 介面。</p><p class="body"><span class="label">【跟你的關係】</span>你做過 Arduino 與 Raspberry Pi 的多層架構，這個專案也是用 ESP32 串接影像與控制兩端，架構上可以參考。</p></div><div class="article"><div class="headline"><a href="https://github.com/ESPARGOS/esp-sdr" target="_blank">esp-sdr</a></div><div class="byline">本報訊｜嵌入式／韌體｜ESPARGOS/esp-sdr｜星數 1,358｜2026 年建立｜C</div><div class="photo"><a href="https://raw.githubusercontent.com/ESPARGOS/esp-sdr/main/docs/espargos-logo.png" target="_blank"><img src="https://raw.githubusercontent.com/ESPARGOS/esp-sdr/main/docs/espargos-logo.png" alt="esp-sdr" loading="lazy"></a><div class="cap">圖：取自 ESPARGOS/esp-sdr 專案說明（點圖看原圖）</div></div><p class="body lead">ESP-SDR 利用 ESP32 系列晶片沒有文件化的原始 I/Q 訊號擷取功能，把晶片變成低工作週期的軟體無線電（SDR，用軟體處理無線電訊號的接收器）。</p><p class="body"><span class="label">【實際應用】</span>可以用 ESP32 收取特定頻段的無線電訊號，做簡單的無線電監聽或訊號分析實驗。</p><p class="body"><span class="label">【跟你的關係】</span>你的專題用過 ESP32 相關的嵌入式平台，且對訊號處理有興趣，這個專案正好結合兩者。</p></div><div class="article"><div class="headline"><a href="https://github.com/Adolanium/hermes-gadget-sdk" target="_blank">hermes-gadget-sdk</a></div><div class="byline">本報訊｜嵌入式／韌體｜Adolanium/hermes-gadget-sdk｜星數 579｜2026 年建立｜C++</div><div class="photo"><a href="https://raw.githubusercontent.com/Adolanium/hermes-gadget-sdk/main/docs/images/logo.png" target="_blank"><img src="https://raw.githubusercontent.com/Adolanium/hermes-gadget-sdk/main/docs/images/logo.png" alt="hermes-gadget-sdk" loading="lazy"></a><div class="cap">圖：取自 Adolanium/hermes-gadget-sdk 專案說明（點圖看原圖）</div></div><p class="body lead">hermes-gadget-sdk 是為 Hermes Agent（一種 AI 代理程式）做語音與文字裝置的工具包，包含 ESP32 韌體、Linux 客戶端與桌面模擬器。</p><p class="body"><span class="label">【實際應用】</span>可以用 ESP32 做一個語音互動的小裝置，接到 AI 代理程式上，例如做桌上的語音助理。</p><p class="body"><span class="label">【跟你的關係】</span>這主要是把 AI 接到裝置上，若你想做 ESP32 語音裝置，可以參考它的韌體結構。</p></div><div class="article"><div class="headline"><a href="https://github.com/liujianyu20021122/RTL-ASS" target="_blank">RTL-ASS</a></div><div class="byline">本報訊｜硬體／電路板｜liujianyu20021122/RTL-ASS｜星數 55｜2026 年建立｜Python</div><p class="body lead">RTL-ASS 是一套給 AI 助手（Codex）使用的 RTL 撰寫與驗證技能。RTL（暫存器轉移層級，數位電路的描述方式）是 FPGA 與晶片設計常用的語言，它使用開源工具，不綁定特定廠商。</p><p class="body"><span class="label">【實際應用】</span>可以用來撰寫 Verilog 或 SystemVerilog 的數位電路，並用開源模擬工具驗證電路行為。</p><p class="body"><span class="label">【跟你的關係】</span>如果你想用 FPGA 做數位電路設計，它提供開源的流程，不需要購買付費工具。</p></div><div class="article"><div class="headline"><a href="https://github.com/yvesrob/6502-gate-by-gate" target="_blank">6502-gate-by-gate</a></div><div class="byline">本報訊｜硬體／電路板｜yvesrob/6502-gate-by-gate｜星數 50｜2026 年建立｜Verilog</div><p class="body lead">這是一台從零開始用 Verilog（硬體描述語言）寫成的 6502 電腦，目標板是 Tang Nano 20K（一塊 FPGA 開發板，可以重新設定內部電路的晶片）。6502 是一款經典的 8 位元微處理器。</p><p class="body"><span class="label">【實際應用】</span>可以把它燒錄到 Tang Nano 20K，看一台完整的 8 位元電腦如何由邏輯閘組成，也可以拿來學習 CPU 內部的時序與控制。</p><p class="body"><span class="label">【跟你的關係】</span>你對硬體電路很有興趣，這是從邏輯閘到完整電腦的實作範例，適合拿來理解數位電路如何組合。</p></div></div></div><div class="section"><div class="section-head">第二版　老技術新啟發</div><p class="section-note">問世超過 3 年的經典專案，看看前人怎麼解決問題。</p><div class="columns"><div class="article"><div class="headline"><a href="https://github.com/openscopeproject/InteractiveHtmlBom" target="_blank">InteractiveHtmlBom</a></div><div class="byline">本報訊｜硬體／電路板｜openscopeproject/InteractiveHtmlBom｜星數 4,656｜2018 年建立｜Python</div><div class="photo"><a href="https://i.imgur.com/js4kDOn.png" target="_blank"><img src="https://i.imgur.com/js4kDOn.png" alt="InteractiveHtmlBom" loading="lazy"></a><div class="cap">圖：取自 openscopeproject/InteractiveHtmlBom 專案說明（點圖看原圖）</div></div><p class="body lead">InteractiveHtmlBom 是 KiCad（電路板設計軟體）等工具的外掛，會把電路板的元件位置產生成可互動的 HTML 頁面。它支援 KiCad、EasyEDA、Eagle、Fusion360 與 Allegro。</p><p class="body"><span class="label">【實際應用】</span>焊接或組裝電路板時，可以在瀏覽器上打開 HTML 頁面，點選元件就能看到它在板上的位置。</p><p class="body"><span class="label">【跟你的關係】</span>你會用 KiCad 做電路板設計，這個外掛可以直接安裝在 KiCad 上，產出組裝用的 BOM（物料清單）頁面。</p></div><div class="article"><div class="headline"><a href="https://github.com/scottbez1/splitflap" target="_blank">splitflap</a></div><div class="byline">本報訊｜硬體／電路板｜scottbez1/splitflap｜星數 4,227｜2015 年建立｜JavaScript</div><div class="photo"><a href="https://s3.amazonaws.com/splitflap-artifacts/master/3d/3d_animation.gif" target="_blank"><img src="https://s3.amazonaws.com/splitflap-artifacts/master/3d/3d_animation.gif" alt="splitflap" loading="lazy"></a><div class="cap">圖：取自 scottbez1/splitflap 專案說明（點圖看原圖）</div></div><p class="body lead">DIY split-flap display 是一個開源專案，用馬達帶動一片片翻頁式的字元片，做出老式火車站或機場看板那種翻牌顯示器。</p><p class="body"><span class="label">【實際應用】</span>可以用馬達與微控制器做一個翻牌式的時鐘或訊息看板，控制每一片翻動到指定字元。</p><p class="body"><span class="label">【跟你的關係】</span>它結合了機構與馬達控制，你做過 3D 列印支架與嵌入式控制，可以參考它的機構設計與驅動方式。</p></div><div class="article"><div class="headline"><a href="https://github.com/openscad/openscad" target="_blank">openscad</a></div><div class="byline">本報訊｜機構設計／3D 列印｜openscad/openscad｜星數 10,724｜2010 年建立｜C++</div><div class="photo"><a href="https://kiwiirc.com/buttons/irc.libera.chat/openscad.png" target="_blank"><img src="https://kiwiirc.com/buttons/irc.libera.chat/openscad.png" alt="openscad" loading="lazy"></a><div class="cap">圖：取自 openscad/openscad 專案說明（點圖看原圖）</div></div><p class="body lead">OpenSCAD 是用程式碼描述立體模型的 CAD（電腦輔助設計）軟體。你用文字寫出尺寸與運算，它會生成可以 3D 列印的實體模型。</p><p class="body"><span class="label">【實際應用】</span>可以用參數化的方式設計 3D 列印的感測器支架或外殼，改一個數字就能整批調整尺寸。</p><p class="body"><span class="label">【跟你的關係】</span>你做過 3D 列印感測器支架，OpenSCAD 能讓你用程式描述支架的尺寸，之後修改比較方便。</p></div></div></div><div class="section"><div class="section-head">第三版　跨界驚喜</div><p class="section-note">你的領域之外，但可能帶來意外靈感的東西。</p><div class="columns"><div class="article"><div class="headline"><a href="https://github.com/merbanan/rtl_433" target="_blank">rtl_433</a></div><div class="byline">本報訊｜訊號處理｜merbanan/rtl_433｜星數 7,946｜2013 年建立｜C</div><div class="photo"><a href="https://raw.githubusercontent.com/merbanan/rtl_433/master/docs/screenshot.png" target="_blank"><img src="https://raw.githubusercontent.com/merbanan/rtl_433/master/docs/screenshot.png" alt="rtl_433" loading="lazy"></a><div class="cap">圖：取自 merbanan/rtl_433 專案說明（點圖看原圖）</div></div><p class="body lead">rtl_433 是一個用來解碼 ISM 頻段（工業、科學、醫療用途的免執照頻段）無線電發射的程式。它能辨識很多家用無線裝置，例如無線溫度計、遙控器與感測器。</p><p class="body"><span class="label">【實際應用】</span>用 RTL-SDR 接收器（一種很便宜的 USB 無線電接收器）監聽附近的無線感測器，看它們送出的資料內容。</p><p class="body"><span class="label">【跟你的關係】</span>你做過無人載具與感測器整合，這個工具能解出很多無線感測器的封包，有助於理解遠端感測器的資料格式。</p></div><div class="article"><div class="headline"><a href="https://github.com/tyiannak/pyAudioAnalysis" target="_blank">pyAudioAnalysis</a></div><div class="byline">本報訊｜訊號處理｜tyiannak/pyAudioAnalysis｜星數 6,272｜2014 年建立｜Python</div><div class="photo"><a href="https://raw.githubusercontent.com/tyiannak/pyAudioAnalysis/master/icon.png" target="_blank"><img src="https://raw.githubusercontent.com/tyiannak/pyAudioAnalysis/master/icon.png" alt="pyAudioAnalysis" loading="lazy"></a><div class="cap">圖：取自 tyiannak/pyAudioAnalysis 專案說明（點圖看原圖）</div></div><p class="body lead">pyAudioAnalysis 是一套 Python 音訊分析函式庫。它能抽取音訊特徵、做分類與切段，例如判斷一段聲音是語音、音樂或其他聲音。</p><p class="body"><span class="label">【實際應用】</span>可以用來做簡單的聲音辨識，例如偵測某種聲音事件，或把一段錄音切成不同片段。</p><p class="body"><span class="label">【跟你的關係】</span>它的音訊特徵抽取與你在訊號處理方面的興趣有關，也能用在音訊相關的專題上。</p></div></div></div>
+  <div class="foot">本期由 Claude 依讀者簡介編選。資料來源：GitHub Search API。覺得有用的題目可記在 liked.txt，之後的選題會參考。</div>
+</div>
+</body>
+</html>
