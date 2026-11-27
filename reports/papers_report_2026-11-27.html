@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>學術論文雷達 2026-11-27</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;900&family=UnifrakturMaguntia&display=swap">
+<style>
+body { margin:0; padding:24px 12px; background:#d9cfb8; }
+.paper {
+  max-width: 920px; margin: 0 auto; padding: 28px 34px 36px;
+  background-color: #f3ead3;
+  background-image: radial-gradient(ellipse at center, rgba(255,250,235,.55) 0%, rgba(214,196,156,.35) 100%);
+  color: #2a2118;
+  font-family: "Noto Serif TC", "PMingLiU", "新細明體", "MingLiU", "Songti TC", Georgia, "Times New Roman", serif;
+  border: 1px solid #b9a77f;
+  box-shadow: 0 2px 14px rgba(60,40,10,.25);
+}
+.ear { display:flex; justify-content:space-between; font-size:12px; color:#5a4a36; letter-spacing:1px; }
+.masthead {
+  text-align:center; margin: 6px 0 4px; padding: 8px 0 6px;
+  border-top: 4px double #2a2118; border-bottom: 1px solid #2a2118;
+}
+.masthead .name {
+  font-family: "UnifrakturMaguntia", "Old English Text MT", "Noto Serif TC", "PMingLiU", serif;
+  font-size: 54px; line-height: 1.05; letter-spacing: 6px; font-weight: 900; margin: 0;
+}
+.masthead .tag { font-size: 13px; letter-spacing: 4px; color:#4a3b2a; margin-top: 4px; }
+.dateline {
+  display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px;
+  font-size: 13px; padding: 5px 2px; border-bottom: 4px double #2a2118; margin-bottom: 18px;
+}
+.section { margin-top: 22px; }
+.section-head {
+  text-align:center; font-size: 22px; font-weight: 900; letter-spacing: 8px;
+  border-top: 2px solid #2a2118; border-bottom: 1px solid #2a2118; padding: 5px 0; margin-bottom: 6px;
+}
+.section-note { text-align:center; font-size: 13px; font-style: italic; color:#5a4a36; margin: 0 0 14px; }
+.columns { column-count: 2; column-gap: 32px; column-rule: 1px solid #a8956c; }
+.article { break-inside: avoid; -webkit-column-break-inside: avoid; page-break-inside: avoid;
+  padding-bottom: 14px; margin-bottom: 14px; border-bottom: 1px dashed #a8956c; }
+.headline { font-size: 21px; font-weight: 900; line-height: 1.3; margin: 0 0 4px; }
+.headline a { color:#2a2118; text-decoration:none; border-bottom: 1px solid #2a2118; }
+.byline { font-size: 12px; color:#5a4a36; letter-spacing: 1px; margin-bottom: 8px; }
+.body { font-size: 15px; line-height: 1.85; text-align: justify; margin: 0 0 6px; }
+.body.lead::first-letter { float:left; font-size: 46px; line-height: .9; font-weight: 900; padding: 4px 6px 0 0; }
+.label { font-weight: 900; }
+.photo { margin: 4px 0 10px; border: 1px solid #8f7d58; padding: 4px; background: #e9dfc4; }
+.photo img { display:block; width:100%; height:auto; max-height: 260px; object-fit: contain; background:#fff; }
+.photo .cap { font-size: 11px; color:#5a4a36; margin-top: 3px; letter-spacing: 1px; }
+.raw { font-size: 12px; color:#6b5a44; font-style: italic; }
+.empty { text-align:center; font-style: italic; color:#5a4a36; }
+.foot { margin-top: 26px; padding-top: 8px; border-top: 4px double #2a2118;
+  text-align:center; font-size: 12px; color:#5a4a36; letter-spacing: 1px; }
+@media (max-width: 640px) {
+  .paper { padding: 18px 16px 24px; }
+  .masthead .name { font-size: 36px; letter-spacing: 3px; }
+  .columns { column-count: 1; }
+}
+</style>
+</head>
+<body>
+<div class="paper">
+  <div class="ear"><span>自動編採．本機發行</span><span>第 20261127 號</span></div>
+  <div class="masthead">
+    <div class="name">學術日報</div>
+    <div class="tag">ARXIV 電機相關新論文．每日精選三篇</div>
+  </div>
+  <div class="dateline"><span>中華民國一一五年十一月二十七日　星期五</span><span>學術論文雷達 2026-11-27</span></div>
+  <div class="section"><div class="section-head">今日要聞</div><div class="columns"><div class="article"><div class="headline"><a href="http://arxiv.org/pdf/2611.34669v1" target="_blank">以 Raspberry Pi 3B 製作的居家讀書姿勢監測與 AI 輔助系統</a></div><div class="byline">本報訊｜cs.AR 硬體架構｜作者：Truyen T. Le, Vinh Dang Ngoc, Thai Bao Huynh</div><p class="body lead">很多學生在家讀書時坐姿不良、久坐不動。這篇用一片 Raspberry Pi 3B（記憶體 1 GB 的小型單板電腦）搭配 USB 攝影機與麥克風，做成居家讀書輔助裝置。影像在板子上即時分析，用 MediaPipe Pose（找出人體關節位置的姿態辨識程式庫）與 OpenCV（影像處理程式庫）檢查頭部前傾與肩膀傾斜。系統不存下原始影像，並用有限狀態機（依固定規則切換狀態的程式結構）計算讀書時間。</p><p class="body"><span class="label">【實際應用】</span>用在宿舍或家裡的桌面，做坐姿提醒與讀書計時。也可當成低成本的邊緣端影像辨識練習專題。</p><p class="body"><span class="label">【跟你的關係】</span>你的無人機專題也用 Raspberry Pi 加攝影機做即時影像判斷，這篇可參考在低記憶體板子上的做法。</p><p class="body"><span class="label">【原文標題】</span>An Embedded Ergonomic Posture Monitoring and AI-Assisted Home Learning System on a Raspberry Pi 3B Edge Platform</p></div><div class="article"><div class="headline"><a href="http://arxiv.org/pdf/2611.34925v1" target="_blank">OneOcean：以真實資料為基礎的海洋機器人模擬套件與測試基準</a></div><div class="byline">本報訊｜cs.RO 機器人｜作者：Shuaijun Liu, Qifu Wen, Xingwei Chen, Xinwen Hu, Feiyang You, Sijia Chen, Ningxin Su</div><div class="photo"><a href="https://arxiv.org/html/2611.34925v1/abstract.png" target="_blank"><img src="https://arxiv.org/html/2611.34925v1/abstract.png" alt="OneOcean：以真實資料為基礎的海洋機器人模擬套件與測試基準" loading="lazy"></a><div class="cap">圖：取自論文原文（點圖看原圖）</div></div><p class="body lead">海洋機器人下水前常需要模擬，但多數模擬器不是畫面好看，就是缺少真實的海流與潮汐資料。OneOcean 把水深地圖與資料驅動的洋流、潮汐整合成一份時空環境資料，並可加入污染分布。它定義了由簡到難的任務，如航點與路線跟隨、深度剖面追蹤、區域掃描、管線巡檢，以及 2 到 10 艘載具的多船協同。</p><p class="body"><span class="label">【實際應用】</span>下水測試前，先在電腦上試航線、驗證導航程式，減少實測時的失敗次數。</p><p class="body"><span class="label">【跟你的關係】</span>你做過無人船下水測試。這套模擬能讓你先在電腦上測試航線與洋流影響，下次實測前可以先跑過。</p><p class="body"><span class="label">【原文標題】</span>One Ocean, Many Tasks: A Data-Grounded Simulation Suite and Benchmark for Marine Robotics</p></div><div class="article"><div class="headline"><a href="http://arxiv.org/pdf/2611.33918v1" target="_blank">MöbiuString：以莫比烏斯帶為基礎、可產生結構化弦藝圖的程式</a></div><div class="byline">本報訊｜cs.GR 電腦圖學｜作者：Xinding Zhu, Hanni Bao, Xinye Yang, Qinyi Wang, Xu Yuzhong, Jiazhou Chen</div><div class="photo"><a href="https://arxiv.org/html/2611.33918v1/output/pdf/teaser1117.jpg" target="_blank"><img src="https://arxiv.org/html/2611.33918v1/output/pdf/teaser1117.jpg" alt="MöbiuString：以莫比烏斯帶為基礎、可產生結構化弦藝圖的程式" loading="lazy"></a><div class="cap">圖：取自論文原文（點圖看原圖）</div></div><p class="body lead">弦藝是在一圈釘子之間拉直線，用線的交叉組成圖像的手工藝。以往的自動生成方法大多只逐條調整線條，讓圖像接近原圖，卻不管整體線條的排列。這篇用莫比烏斯帶（只有一個面的曲面）上的「母線」（描述一族線的曲線）來表示成組的線，讓排列可以明確控制。在指定的線數上限下，它能生成多色的結構化弦藝圖。</p><p class="body"><span class="label">【實際應用】</span>若要做實體弦藝，可先用程式規劃釘子位置與線的排列，再照圖在釘子板上手工拉線。</p><p class="body"><span class="label">【跟你的關係】</span>你列出的美術、設計興趣與此題相關，弦藝是可以動手做的手作題材。</p><p class="body"><span class="label">【原文標題】</span>MöbiuString: Structured String Art via Optimizing Generatrices on the Möbius Strip</p></div></div></div>
+  <div class="foot">本期由 Claude 依讀者簡介編選。資料來源：arXiv API；點標題可讀 PDF 原文。覺得有用的論文可記在 liked.txt。</div>
+</div>
+</body>
+</html>
