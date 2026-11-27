@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>技術雷達 2026-11-27</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;900&family=UnifrakturMaguntia&display=swap">
+<style>
+body { margin:0; padding:24px 12px; background:#d9cfb8; }
+.paper {
+  max-width: 920px; margin: 0 auto; padding: 28px 34px 36px;
+  background-color: #f3ead3;
+  background-image: radial-gradient(ellipse at center, rgba(255,250,235,.55) 0%, rgba(214,196,156,.35) 100%);
+  color: #2a2118;
+  font-family: "Noto Serif TC", "PMingLiU", "新細明體", "MingLiU", "Songti TC", Georgia, "Times New Roman", serif;
+  border: 1px solid #b9a77f;
+  box-shadow: 0 2px 14px rgba(60,40,10,.25);
+}
+.ear { display:flex; justify-content:space-between; font-size:12px; color:#5a4a36; letter-spacing:1px; }
+.masthead {
+  text-align:center; margin: 6px 0 4px; padding: 8px 0 6px;
+  border-top: 4px double #2a2118; border-bottom: 1px solid #2a2118;
+}
+.masthead .name {
+  font-family: "UnifrakturMaguntia", "Old English Text MT", "Noto Serif TC", "PMingLiU", serif;
+  font-size: 54px; line-height: 1.05; letter-spacing: 6px; font-weight: 900; margin: 0;
+}
+.masthead .tag { font-size: 13px; letter-spacing: 4px; color:#4a3b2a; margin-top: 4px; }
+.dateline {
+  display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px;
+  font-size: 13px; padding: 5px 2px; border-bottom: 4px double #2a2118; margin-bottom: 18px;
+}
+.section { margin-top: 22px; }
+.section-head {
+  text-align:center; font-size: 22px; font-weight: 900; letter-spacing: 8px;
+  border-top: 2px solid #2a2118; border-bottom: 1px solid #2a2118; padding: 5px 0; margin-bottom: 6px;
+}
+.section-note { text-align:center; font-size: 13px; font-style: italic; color:#5a4a36; margin: 0 0 14px; }
+.columns { column-count: 2; column-gap: 32px; column-rule: 1px solid #a8956c; }
+.article { break-inside: avoid; -webkit-column-break-inside: avoid; page-break-inside: avoid;
+  padding-bottom: 14px; margin-bottom: 14px; border-bottom: 1px dashed #a8956c; }
+.headline { font-size: 21px; font-weight: 900; line-height: 1.3; margin: 0 0 4px; }
+.headline a { color:#2a2118; text-decoration:none; border-bottom: 1px solid #2a2118; }
+.byline { font-size: 12px; color:#5a4a36; letter-spacing: 1px; margin-bottom: 8px; }
+.body { font-size: 15px; line-height: 1.85; text-align: justify; margin: 0 0 6px; }
+.body.lead::first-letter { float:left; font-size: 46px; line-height: .9; font-weight: 900; padding: 4px 6px 0 0; }
+.label { font-weight: 900; }
+.photo { margin: 4px 0 10px; border: 1px solid #8f7d58; padding: 4px; background: #e9dfc4; }
+.photo img { display:block; width:100%; height:auto; max-height: 260px; object-fit: contain; background:#fff; }
+.photo .cap { font-size: 11px; color:#5a4a36; margin-top: 3px; letter-spacing: 1px; }
+.raw { font-size: 12px; color:#6b5a44; font-style: italic; }
+.empty { text-align:center; font-style: italic; color:#5a4a36; }
+.foot { margin-top: 26px; padding-top: 8px; border-top: 4px double #2a2118;
+  text-align:center; font-size: 12px; color:#5a4a36; letter-spacing: 1px; }
+@media (max-width: 640px) {
+  .paper { padding: 18px 16px 24px; }
+  .masthead .name { font-size: 36px; letter-spacing: 3px; }
+  .columns { column-count: 1; }
+}
+</style>
+</head>
+<body>
+<div class="paper">
+  <div class="ear"><span>自動編採．本機發行</span><span>第 20261127 號</span></div>
+  <div class="masthead">
+    <div class="name">技術雷達報</div>
+    <div class="tag">新技術．老技術．跨界驚喜　每三日刊</div>
+  </div>
+  <div class="dateline"><span>中華民國一一五年十一月二十七日　星期五</span><span>技術雷達 2026-11-27</span></div>
+  <div class="section"><div class="section-head">第一版　新技術</div><p class="section-note">近 90 天內誕生、已獲社群關注的專案。</p><div class="columns"><div class="article"><div class="headline"><a href="https://github.com/engineerdiaa/portable-heart-led" target="_blank">portable-heart-led</a></div><div class="byline">本報訊｜硬體／電路板｜engineerdiaa/portable-heart-led｜星數 82｜2026 年建立｜C++</div><div class="photo"><a href="https://raw.githubusercontent.com/engineerdiaa/portable-heart-led/main/images/keychain_front.jpg" target="_blank"><img src="https://raw.githubusercontent.com/engineerdiaa/portable-heart-led/main/images/keychain_front.jpg" alt="portable-heart-led" loading="lazy"></a><div class="cap">圖：取自 engineerdiaa/portable-heart-led 專案說明（點圖看原圖）</div></div><p class="body">一個做成鑰匙圈的 LED 愛心，板子上有 16 顆 LED，由 Arduino Nano 控制，用鋰聚合物電池（LiPo，可充電的電池）供電。專案附電路圖、程式碼與組裝說明。</p><p class="body"><span class="label">【實際應用】</span>可以當作 Arduino 控制 LED 的入門範例，也能參考如何把 Nano 與充電電路放進很小的空間。</p><p class="body"><span class="label">【跟你的關係】</span>你用過 Arduino，這個專案的電路圖與組裝流程可以拿來對照你的電路設計與焊接練習。</p></div><div class="article"><div class="headline"><a href="https://github.com/Orchis-ai-LLC/Konnect-EDA" target="_blank">Konnect-EDA</a></div><div class="byline">本報訊｜硬體／電路板｜Orchis-ai-LLC/Konnect-EDA｜星數 207｜2026 年建立｜其他</div><p class="body lead">用 AI 輔助設計電路板（PCB）的工具，專門對應 KiCad 10。原始碼未公開，目前 beta 測試期間免費。</p><p class="body"><span class="label">【實際應用】</span>在 KiCad 10 上試用 AI 輔助的佈線流程，比較它的結果與自己手動設計的差異。</p><p class="body"><span class="label">【跟你的關係】</span>你用 KiCad 做電路板設計，這個工具是為 KiCad 10 設計的，可以評估是否用在你的板子上。</p></div><div class="article"><div class="headline"><a href="https://github.com/agamrossen/VolAnti" target="_blank">VolAnti</a></div><div class="byline">本報訊｜機構設計／3D 列印｜agamrossen/VolAnti｜星數 481｜2026 年建立｜C</div><div class="photo"><a href="https://raw.githubusercontent.com/agamrossen/VolAnti/main/docs/images/hero-render.png" target="_blank"><img src="https://raw.githubusercontent.com/agamrossen/VolAnti/main/docs/images/hero-render.png" alt="VolAnti" loading="lazy"></a><div class="cap">圖：取自 agamrossen/VolAnti 專案說明（點圖看原圖）</div></div><p class="body lead">開源的聲學無人機偵測專案，用麥克風聽螺旋槳的聲音來判斷附近有沒有無人機，不靠接收無線電訊號。程式用 C 語言寫。</p><p class="body"><span class="label">【實際應用】</span>研究用聲音辨識無人機的方法，特別是不發射無線電訊號的光纖 FPV 無人機。</p><p class="body"><span class="label">【跟你的關係】</span>你做過無人機避障，用的是攝影機與超音波；這個專案用聲音找無人機，可以當作另一種感測方式的參考。</p></div><div class="article"><div class="headline"><a href="https://github.com/Kai-Jungsthoefel/SOMA" target="_blank">SOMA</a></div><div class="byline">本報訊｜機構設計／3D 列印｜Kai-Jungsthoefel/SOMA｜星數 571｜2026 年建立｜TypeScript</div><div class="photo"><a href="https://raw.githubusercontent.com/Kai-Jungsthoefel/SOMA/main/docs/images/explode.png" target="_blank"><img src="https://raw.githubusercontent.com/Kai-Jungsthoefel/SOMA/main/docs/images/explode.png" alt="SOMA" loading="lazy"></a><div class="cap">圖：取自 Kai-Jungsthoefel/SOMA 專案說明（點圖看原圖）</div></div><p class="body lead">桌面應用程式，用 CadQuery（用 Python 寫參數化 3D 模型的程式庫）設計可以 3D 列印的零件，可搭配你選的程式碼代理（coding agent）使用。</p><p class="body"><span class="label">【實際應用】</span>改變孔徑、壁厚等參數，就能重新產生零件的 3D 模型，例如感測器支架。</p><p class="body"><span class="label">【跟你的關係】</span>你做過 3D 列印的感測器支架，這個工具可以用參數來重複修改支架尺寸，不必每次從頭畫。</p></div><div class="article"><div class="headline"><a href="https://github.com/SAMS0N1TE/lr2021-sdr" target="_blank">lr2021-sdr</a></div><div class="byline">本報訊｜訊號處理｜SAMS0N1TE/lr2021-sdr｜星數 325｜2026 年建立｜C</div><div class="photo"><a href="https://raw.githubusercontent.com/SAMS0N1TE/lr2021-sdr/main/docs/media/LR2021-SDR-banner-light.png" target="_blank"><img src="https://raw.githubusercontent.com/SAMS0N1TE/lr2021-sdr/main/docs/media/LR2021-SDR-banner-light.png" alt="lr2021-sdr" loading="lazy"></a><div class="cap">圖：取自 SAMS0N1TE/lr2021-sdr 專案說明（點圖看原圖）</div></div><p class="body lead">實驗性質的程式庫與工具，用 C 語言擷取 LR2021 無線收發晶片的原始 I/Q 訊號資料。I/Q 是無線電訊號未經解調的原始數據。</p><p class="body"><span class="label">【實際應用】</span>把 LR2021 收到的原始無線電訊號存下來，之後做分析或解碼。</p><p class="body"><span class="label">【跟你的關係】</span>你對訊號處理有興趣，這個專案可以看到原始 I/Q 資料是怎麼從晶片取得的。</p></div></div></div><div class="section"><div class="section-head">第二版　老技術新啟發</div><p class="section-note">問世超過 3 年的經典專案，看看前人怎麼解決問題。</p><div class="columns"><div class="article"><div class="headline"><a href="https://github.com/arendst/Tasmota" target="_blank">Tasmota</a></div><div class="byline">本報訊｜嵌入式／韌體｜arendst/Tasmota｜星數 25,032｜2017 年建立｜C</div><div class="photo"><a href="https://user-images.githubusercontent.com/5904370/68332933-e6e5a600-00d7-11ea-885d-50395f7239a1.png" target="_blank"><img src="https://user-images.githubusercontent.com/5904370/68332933-e6e5a600-00d7-11ea-885d-50395f7239a1.png" alt="Tasmota" loading="lazy"></a><div class="cap">圖：取自 arendst/Tasmota 專案說明（點圖看原圖）</div></div><p class="body lead">替 ESP8266、ESP32 等小型 Wi-Fi 裝置換上的韌體（板子上執行的程式）。可用網頁設定、無線更新，也能用計時或規則做自動化。</p><p class="body"><span class="label">【實際應用】</span>把市售的 Wi-Fi 插座或感測器換成 Tasmota，再用網頁控制開關或設定定時動作。</p><p class="body"><span class="label">【跟你的關係】</span>你做過 Arduino 與 Raspberry Pi 的系統整合，Tasmota 是另一種把小型板子接上網路的做法，可以拿來比較。</p></div><div class="article"><div class="headline"><a href="https://github.com/daisyaudio/DaisySP" target="_blank">DaisySP</a></div><div class="byline">本報訊｜訊號處理｜daisyaudio/DaisySP｜星數 1,282｜2020 年建立｜C++</div><div class="photo"><a href="https://raw.githubusercontent.com/electro-smith/daisysp/master/resources/assets/banner.png" target="_blank"><img src="https://raw.githubusercontent.com/electro-smith/daisysp/master/resources/assets/banner.png" alt="DaisySP" loading="lazy"></a><div class="cap">圖：取自 daisyaudio/DaisySP 專案說明（點圖看原圖）</div></div><p class="body lead">用 C++ 寫的數位訊號處理（DSP）程式庫，內含濾波器、延遲、合成器等音訊處理模組，可在 Daisy 嵌入式音訊板上執行。</p><p class="body"><span class="label">【實際應用】</span>在微控制器上寫即時音訊效果，例如低通濾波器或延遲效果。</p><p class="body"><span class="label">【跟你的關係】</span>你對訊號處理有興趣，這個程式庫可以看到濾波器這類 DSP 模組在嵌入式平台上怎麼實作。</p></div><div class="article"><div class="headline"><a href="https://github.com/adrianschlatter/threadlib" target="_blank">threadlib</a></div><div class="byline">本報訊｜機構設計／3D 列印｜adrianschlatter/threadlib｜星數 488｜2019 年建立｜OpenSCAD</div><p class="body lead">OpenSCAD 的螺紋函式庫，可以在 3D 模型上產生螺紋。OpenSCAD 是用程式碼描述 3D 模型的工具。</p><p class="body"><span class="label">【實際應用】</span>設計可以互相旋入的 3D 列印外殼或螺帽，在程式裡直接設定螺距與直徑。</p><p class="body"><span class="label">【跟你的關係】</span>你做過 3D 列印的感測器支架，如果支架要用螺絲或螺紋接合，可以用這個函式庫產生螺紋。</p></div></div></div><div class="section"><div class="section-head">第三版　跨界驚喜</div><p class="section-note">你的領域之外，但可能帶來意外靈感的東西。</p><div class="columns"><div class="article"><div class="headline"><a href="https://github.com/sdima1357/esp32_usb_soft_host" target="_blank">esp32_usb_soft_host</a></div><div class="byline">本報訊｜跨界：retrocomputing｜sdima1357/esp32_usb_soft_host｜星數 496｜2021 年建立｜C</div><div class="photo"><a href="https://raw.githubusercontent.com/sdima1357/esp32_usb_soft_host/main/images/IMG_20210303_184755_1.jpg?raw=true" target="_blank"><img src="https://raw.githubusercontent.com/sdima1357/esp32_usb_soft_host/main/images/IMG_20210303_184755_1.jpg?raw=true" alt="esp32_usb_soft_host" loading="lazy"></a><div class="cap">圖：取自 sdima1357/esp32_usb_soft_host 專案說明（點圖看原圖）</div></div><p class="body lead">用 ESP32 的一般輸入輸出腳位，以軟體實作 USB 主機功能，最多可同時接 4 個 USB HID 裝置（如鍵盤、滑鼠、搖桿）。程式用 C 語言寫。</p><p class="body"><span class="label">【實際應用】</span>讓 ESP32 直接接鍵盤或搖桿，做成簡單的控制面板或輸入裝置。</p><p class="body"><span class="label">【跟你的關係】</span>你做 MCU 韌體，這個專案示範如何不靠 USB 硬體週邊，只用 GPIO 實作 USB 主機，可以參考其韌體寫法。</p></div><div class="article"><div class="headline"><a href="https://github.com/redcode/Z80" target="_blank">Z80</a></div><div class="byline">本報訊｜跨界：retrocomputing｜redcode/Z80｜星數 569｜2013 年建立｜C</div><div class="photo"><a href="https://zxe.io/software/Z80/tests/screenshots/ZX%20Spectrum/Zilog%20Z80%20CPU%20Test%20Suite%20v1.0%20%282012-12-08%29%28Rak,%20Patrik%29%20-%20Zilog%20-%20Full.gif" target="_blank"><img src="https://zxe.io/software/Z80/tests/screenshots/ZX%20Spectrum/Zilog%20Z80%20CPU%20Test%20Suite%20v1.0%20%282012-12-08%29%28Rak,%20Patrik%29%20-%20Zilog%20-%20Full.gif" alt="Z80" loading="lazy"></a><div class="cap">圖：取自 redcode/Z80 專案說明（點圖看原圖）</div></div><p class="body lead">用 ANSI C 寫的 Zilog Z80 處理器模擬器，可在電腦上逐一執行 Z80 指令。Z80 是 1970 年代常見的 8 位元處理器。</p><p class="body"><span class="label">【實際應用】</span>用來學習 CPU 如何讀取、解碼與執行指令，或在電腦上跑 Z80 的舊程式。</p><p class="body"><span class="label">【跟你的關係】</span>你做 MCU 韌體，這個專案能看到處理器的指令執行過程，有助於理解底層運作。</p></div></div></div>
+  <div class="foot">本期由 Claude 依讀者簡介編選。資料來源：GitHub Search API。覺得有用的題目可記在 liked.txt，之後的選題會參考。</div>
+</div>
+</body>
+</html>
